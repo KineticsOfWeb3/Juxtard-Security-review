@@ -1,13 +1,14 @@
 // SPDX-License-Identifier: MIT
-pragma solidity 0.8.18;
+pragma solidity 0.8.18; // q is this d correct compiler version?
 
 /*
  * @author not-so-secure-dev
  * @title PasswordStore
- * @notice This contract allows you to store a private password that others won't be able to see. 
+ * @notice This contract allows you to store a private password that others won't be able to see.
  * You can update your password at any time.
  */
 contract PasswordStore {
+    // n maybe use better error naming convention
     error PasswordStore__NotOwner();
 
     address private s_owner;
