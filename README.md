@@ -24,14 +24,18 @@ Returns: string memory
 Description: Allows only the owner to retrieve the password.
 Errors:
 PasswordStore__NotOwner: Reverted if the caller is not the owner.
+
 Events
 SetNetPassword()
 Description: Emitted when a new password is set.
+
 Errors
 PasswordStore__NotOwner
 Description: Error thrown when a non-owner tries to access the password.
+
 Audit Report
-This repository includes an audit report for the PasswordStore smart contract. The audit focuses on the following aspects:
+This repository includes an audit report for the PasswordStore smart contract. 
+The audit focuses on the following aspects:
 
 Correctness: Ensuring the contract behaves as expected and adheres to the specified functionality.
 Security: Identifying potential vulnerabilities and assessing the contract's security posture.
@@ -55,13 +59,12 @@ Compile and Deploy
 
 Instructions for compiling and deploying the contract.
 
-Contribution
+Contribution:
 Contributions to the PasswordStore project are welcome. Please follow the standard procedure for submitting pull requests and issues.
 
-License
+License:
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-Contact
+Contact:
 For any questions or feedback, please reach out to me via email, faridosky99@gmail.com
 Twitter: KineticsOfWeb3
-For any questions or feedback, please reach out to [your contact information].
